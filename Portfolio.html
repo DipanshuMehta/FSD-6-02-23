@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      .first {
+        text-align: center;
+        font-size: large;
+        color: crimson;
+        background-color: cornsilk;
+        border: 5px solid;
+      }
+      body {
+        background-color: cornsilk;
+      }
+      .second input {
+        margin: 10px;
+        padding: 5px;
+      }
+      .second {
+        color: crimson;
+        background-color: cornsilk;
+        border: 5px solid crimson;
+        padding: 5px;
+      }
+      .third{
+        color: crimson;
+        background-color: cornsilk;
+        border: 5px solid crimson;
+        padding: 5px;
+      }
+      .third input{
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <h1>Feedback Form</h1>
+    </div>
+    <hr />
+    <div class="second">
+      <label for="First Name">First Name</label>
+      <input type="text" placeholder="first name" /><br />
+      <label for="Last Name">Last Name</label>
+      <input type="text" placeholder="last name" /><br />
+      <label for="Email Id">Email Id</label>
+      <input type="text" placeholder="email id" /><br />
+      <label for="Linkdin Profile">Linkdin Profile</label>
+      <input type="text" placeholder="linkdin profile" /><br />
+      <label for="Contact">Contact</label>
+      <input type="text" placeholder="contact" /><br />
+      <label for="Department">Department</label>
+      <select name="Department" id="Department">
+        <option value="Administration">Administration</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Purchasing">Purchasing</option>
+        <option value="Human Resources">Human Resources</option>
+        <option value="Shipping">Shipping</option>
+        <option value="IT">IT</option>
+        <option value="Public relations">Public relations</option>
+        <option value="Sales">Sales</option>
+        <option value="Executive">Executive</option>
+        <option value="Finance">Finance</option>
+        <option value="Accounting">Accounting</option>
+        <option value="Treasury">Treasury</option>
+        <option value="Corporate Tax">Corporate Tax</option></select
+      ><br />
+    </div>
+    <hr>
+    <div class="third">
+      <p>Feedback type</p>
+      <input type="radio" id="Comments" name="Comments" />
+      <label for="Comments">Comments</label>
+      <input type="radio" id="Suggestions" name="Suggestions" />
+      <label for="Suggestions">Suggestions</label>
+      <input type="radio" id="Questions" name="Questions" />
+      <label for="Questions">Questions</label><br />
+      <label for="Describe Your Feedback">Describe Your Feedback</label>
+      <input type="text" placeholder="enter feedback" /><br />
+      <input type="Submit" />
+    </div>
+  </body>
+</html>
